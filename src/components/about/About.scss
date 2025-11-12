@@ -26,6 +26,8 @@
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
     transition: transform 0.4s ease;
 
+    margin-top: 4rem; // <-- added extra space above photo
+
     &:hover {
       transform: scale(1.05);
     }
@@ -40,6 +42,7 @@
   .about-text {
     font-family: 'Raleway', sans-serif;
     color: #333;
+
     h2 {
       font-weight: 300;
       font-size: 2rem;
