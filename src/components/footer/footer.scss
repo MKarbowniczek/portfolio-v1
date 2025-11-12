@@ -14,5 +14,29 @@
     margin: 0;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
+
+    @media (max-width: 1024px) {
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 0.85rem;
+      letter-spacing: 0.3px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 0.8rem;
+      line-height: 1.4;
+      padding: 0 0.5rem; // keeps text centered and readable on narrow screens
+    }
+  }
+
+  /* ✅ Responsive Layout Adjustments */
+  @media (max-width: 768px) {
+    padding: 1.2rem 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem;
   }
 }

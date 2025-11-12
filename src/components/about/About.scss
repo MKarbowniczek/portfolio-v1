@@ -2,13 +2,13 @@
 
 .about-section {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f8f8f8;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem; // ⬅ increased top padding for separation
 
   .about-content {
     display: flex;
@@ -16,6 +16,7 @@
     align-items: center;
     gap: 2rem;
     max-width: 800px;
+    width: 100%;
   }
 
   .about-image-wrapper {
@@ -25,8 +26,7 @@
     overflow: hidden;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
     transition: transform 0.4s ease;
-
-    margin-top: 4rem; // <-- added extra space above photo
+    margin-top: 3rem; // space above photo
 
     &:hover {
       transform: scale(1.05);
@@ -42,12 +42,22 @@
   .about-text {
     font-family: 'Raleway', sans-serif;
     color: #333;
+    padding: 0 1rem;
 
     h2 {
       font-weight: 300;
       font-size: 2rem;
       margin-bottom: 1rem;
       letter-spacing: 2px;
+
+      @media (min-width: 768px) {
+        font-size: 2.4rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+      }
     }
 
     p {
@@ -56,6 +66,39 @@
       line-height: 1.8;
       max-width: 600px;
       margin: 0 auto;
+
+      @media (min-width: 768px) {
+        font-size: 1.2rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  /* ✅ Responsive Layout Adjustments */
+  @media (max-width: 768px) {
+    height: auto; /* Allow section to grow naturally on smaller screens */
+    padding: 3rem 1rem;
+
+    .about-content {
+      gap: 1.5rem;
+    }
+
+    .about-image-wrapper {
+      width: 150px;
+      height: 150px;
+      margin-top: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .about-image-wrapper {
+      width: 130px;
+      height: 130px;
+      margin-top: 1.5rem;
     }
   }
 }
