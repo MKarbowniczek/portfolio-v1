@@ -10,7 +10,12 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center pt-20"
+      >
+        <Header />
+      </section>
 
       <section
         id="home"
@@ -18,7 +23,6 @@ function App() {
       >
         <Home />
       </section>
-
 
       <section
         id="about"

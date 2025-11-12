@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6rem 2rem;
+  padding: 6rem 0rem;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 
@@ -86,7 +86,7 @@
 
   /* ✅ Responsive adjustments for mobile and small tablets */
   @media (max-width: 768px) {
-    padding: 4rem 1.5rem;
+    padding: 4rem 0rem;
     min-height: auto;
 
     .offer-items {
@@ -102,7 +102,7 @@
   }
 
   @media (max-width: 480px) {
-    padding: 3rem 1rem;
+    padding: 3rem 0rem;
 
     .offer-content {
       h2 {
