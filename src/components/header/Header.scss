@@ -1,0 +1,34 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+}
+
+.header-container {
+  max-width: 1200px; // możesz zmienić według własnych potrzeb
+  margin: 0 auto;     // wyśrodkowanie poziome
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;       // wysokość headera
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;          // odstęp między linkami
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
