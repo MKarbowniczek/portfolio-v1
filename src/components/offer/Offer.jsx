@@ -1,13 +1,21 @@
 import React from "react";
 import "./Offer.scss";
+import backgroundImage from "../../assets/background.png";
 
 const Offer = () => {
   return (
-    <section className="offer-section">
+    <section
+      className="offer-section"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="offer-content">
         <h2>Oferta</h2>
 
-        {/* ✅ Use the class that matches SCSS */}
         <div className="offer-items">
           <div className="offer-item">
             <h3>Lekcje indywidualne</h3>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.scss";
 // import backgroundImage from "../../assets/books.jpg";
-import backgroundImage from "../../assets/books_v4.png";
+import backgroundImage from "../../assets/books_v5.png";
 
 const Home = () => {
   const [visible, setVisible] = useState(true);
