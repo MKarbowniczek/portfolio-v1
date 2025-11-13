@@ -64,11 +64,11 @@
 
   /* ✅ Responsive Layout Adjustments */
   @media (max-width: 768px) {
-    padding: 3rem 1.5rem;
+    padding: 3rem 0rem;
     min-height: auto; // allows natural growth
   }
 
   @media (max-width: 480px) {
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 0rem;
   }
 }

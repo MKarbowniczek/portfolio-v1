@@ -7,28 +7,26 @@ const Offer = () => {
       <div className="offer-content">
         <h2>Oferta</h2>
 
-        <div className="offer-block">
-          <h3>lekcje indywidualne</h3>
-          <p>95 zł / 45 min</p>
-          <p>120 zł / 60 min</p>
-        </div>
+        {/* ✅ Use the class that matches SCSS */}
+        <div className="offer-items">
+          <div className="offer-item">
+            <h3>Lekcje indywidualne</h3>
+            <p>95 zł / 45 min</p>
+            <p>120 zł / 60 min</p>
+            <h3>Lekcje grupowe</h3>
+            <p>70 zł / 60 min / os.</p>
+          </div>
 
-        <div className="offer-block">
-          <h3>lekcje grupowe</h3>
-          <p>70 zł / 60 min / os.</p>
-        </div>
-
-        <div className="offer-block">
-            <h3>tłumaczenie zwykłe ENG-PL</h3>
+          <div className="offer-item">
+            <h3>Tłumaczenie zwykłe ENG–PL</h3>
             <p>35 zł / 1 str. (1500 znaków ze spacjami)</p>
-        </div>
+            <h3>Korekta tłumaczenia</h3>
+            <p>15 zł / 1 str. (1500 znaków ze spacjami)</p>
+          </div>
 
-        <div className="offer-block">
-           <h3>korekta tłumaczenia przeprowadzona przez inny podmiot</h3>
-           <p>15 zł / 1 str. (1500 znaków ze spacjami)</p>
-        </div>
-        <div className="offer-block">
+          <div className="offer-item">
             <p>Możliwość wystawienia faktury VAT.</p>
+          </div>
         </div>
       </div>
     </section>
