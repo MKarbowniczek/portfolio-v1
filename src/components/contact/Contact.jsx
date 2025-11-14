@@ -7,10 +7,10 @@ const Contact = () => {
       <div className="contact-content">
         <h2>Kontakt</h2>
         <p>
-          📞 <a href="tel:+48123456789">502 639 198</a>
+          📞 <a href="tel:+48502639198">502 639 198</a>
         </p>
         <p>
-          ✉️ <a href="mailto:example@email.com">aneta.naglarska@gmail.com</a>
+          ✉️ <a href="mailto:aneta.naglarska@gmail.com">aneta.naglarska@gmail.com</a>
         </p>
         <p>
           🌐{" "}
