@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Home.scss";
-// import backgroundImage from "../../assets/books.jpg";
-import backgroundImage from "../../assets/books_v5.png";
+import backgroundImage from "../../assets/books_v5.jpg";
 
 const Home = () => {
   const [visible, setVisible] = useState(true);
@@ -9,7 +8,6 @@ const Home = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      // Fade out gradually as user scrolls past ~200px
       setVisible(scrollY < window.innerHeight * 0.5);
     };
 
