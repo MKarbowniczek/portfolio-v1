@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import profileImage from "../../assets/aneta_v1.jpg";
+import profileImage from "../../assets/aneta_v2.jpg";
 
 const About = () => {
   return (
@@ -12,30 +12,33 @@ const About = () => {
         <div className="about-text">
           <h2>O mnie</h2>
           <p>
-              Jestem lektorem języka angielskiego z długoletnim doświadczeniem.
-              Ukończyłam studia na kierunku filologia angielska na Uniwersytecie Warszawskim.
-              Swoje umiejętności językowe zdobywałam również pracując kilka lat w Londynie
-              oraz w szkole językowej jako korepetytor prowadząc zarówno zajęcia indywidualne jak i grupowe dla
-              dorosłych, młodzieży oraz dzieci.
+            Mam na imię <span className="bold-name">Aneta</span> i od ponad <span className="bold-name">5</span> lat uczę angielskiego tak,
+            jak sama chciałabym być uczona — jasno, praktycznie i bez zbędnego stresu.
+            Ukończyłam <span className="bold-name">filologię angielską na Uniwersytecie Warszawskim</span>. Swoje
+            umiejętności językowe doskonaliłam podczas pobytu w Wielkiej Brytanii, gdzie na
+            co dzień posługiwałam się angielskim. Przez kilka lat pracowałam jako <span className="bold-name">lektorka w
+            szkołach językowych</span>, prowadząc kursy indywidualne oraz grupowe, zarówno dla
+            młodzieży, jak i dorosłych na różnych poziomach.
+          </p>
+          <h3>Co oferuję?</h3>
+          <p>
+            <ul class="offer-list">
+              <li>Zajęcia 1:1 jak i grupowe z General English na poziomach A1–C1 prowadzone na platformie Microsoft Teams</li>
+              <li>Przygotowanie do egzaminów Cambridge (FCE, CAE)</li>
+              <li>Przygotowanie do matury (podstawowa i rozszerzona)</li>
+              <li>Egzamin ósmoklasisty</li>
+              <li>Egzaminy na studiach</li>
+            </ul>
           </p>
           <h3>Jak pracuje?</h3>
           <p>
-             Posiadam indywidualne podejście do każdego ucznia z uwzględnieniem
-             jego braków oraz mocnych stron a także jego poprzednich doświadczeń z
-             nauką języka angielskiego. Współpracę rozpoczynam od rozmowy
-             weryfikacyjnej na podstawie, której badam obszary, które wymagają pracy u
-             danego ucznia z uwzględnieniem jego oczekiwań i celów. Na podstawie
-
-             zebranych informacji opracowuje propozycję planu nauki, który przygotowuję
-             w sposób spersonalizowany pod każdego ucznia w zależności od poziomu
-             języka na którym się znajduje oraz celu nauki języka. Oprócz harmonogramu
-             nauki realizowanego na lekcjach, swoim uczniom udzielam również
-             szczegółowych instrukcji odnośnie codziennej samodzielnej nauki w
-             domu, motywacji oraz organizacji w planowaniu czasu w osiąganiu celu,
-             które w sposób efektywny pomogą przyswoić dany materiał.
-             Jestem również osobą zorganizowaną, otwartą oraz komunikatywną,
-             nastawioną na słuchanie potrzeb i oczekiwań swoich uczniów, co wierzę,
-             że znacznie ułatwia współpracę.
+            <ul class="offer-list">
+              <li>Materiały dostosowane w 100% do Twoich potrzeb</li>
+              <li>Spersonalizowany plan nauki dostosowany do celu (egzamin, praca, komunikacja)</li>
+              <li>Praca na autentycznych materiałach</li>
+              <li>Regularny feedback i kontakt między zajęciami</li>
+              <li>Wsparcie, motywacja i przyjazna atmosfera sprzyjająca swobodnej komunikacji</li>
+            </ul>
           </p>
         </div>
       </div>
