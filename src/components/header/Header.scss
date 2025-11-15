@@ -6,29 +6,79 @@
   background-color: #fafafa;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 50;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header-container {
-  max-width: 1200px; // możesz zmienić według własnych potrzeb
-  margin: 0 auto;     // wyśrodkowanie poziome
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;       // wysokość headera
+  height: 60px;
+//   padding: 0 5rem;
+
+  @media (max-width: 1024px) {
+//     padding: 0 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    height: 55px;
+  }
+
+  @media (max-width: 480px) {
+    height: 55px; // same as tablet
+//     padding: 0 1.5rem; // match tablet spacing
+  }
 }
 
 .nav {
   display: flex;
-  gap: 2rem;          // odstęp między linkami
+  gap: 2rem;
+
+  @media (max-width: 1024px) {
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    flex-direction: row; // horizontal like tablet
+    position: static;    // no absolute positioning
+    width: auto;
+    background: none;
+    box-shadow: none;
+    display: flex;       // always visible
+    padding: 0;
+    text-align: center;
+    gap: 1rem;           // small gap between links
+  }
+
+  &.open {
+    display: flex; // optional, still works if you toggle
+  }
 }
 
 .nav-link {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
-  transition: color 0.2s;
-}
+  font-weight: 400;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
 
-.nav-link:hover {
-  color: #007bff;
+  &:hover {
+    color: #007bff;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    padding: 0; // no extra vertical padding
+    display: inline-block;
+  }
 }

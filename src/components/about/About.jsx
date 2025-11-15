@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import profileImage from "../../assets/aneta.jpg";
+import profileImage from "../../assets/aneta_v1.png";
 
 const About = () => {
   return (
@@ -12,14 +12,30 @@ const About = () => {
         <div className="about-text">
           <h2>O mnie</h2>
           <p>
-            Chcesz swobodnie mówić po angielsku? Masz dosyć stania w miejscu i w końcu wskoczyć na wyższy poziom?
+              Jestem lektorem języka angielskiego z długoletnim doświadczeniem.
+              Ukończyłam studia na kierunku filologia angielska na Uniwersytecie Warszawskim.
+              Swoje umiejętności językowe zdobywałam również pracując kilka lat w Londynie
+              oraz w szkole językowej jako korepetytor prowadząc zarówno zajęcia indywidualne jak i grupowe dla
+              dorosłych, młodzieży oraz dzieci.
+          </p>
+          <h3>Jak pracuje?</h3>
+          <p>
+             Posiadam indywidualne podejście do każdego ucznia z uwzględnieniem
+             jego braków oraz mocnych stron a także jego poprzednich doświadczeń z
+             nauką języka angielskiego. Współpracę rozpoczynam od rozmowy
+             weryfikacyjnej na podstawie, której badam obszary, które wymagają pracy u
+             danego ucznia z uwzględnieniem jego oczekiwań i celów. Na podstawie
 
-            Mam na imię Aneta, ukończyłam fililogię angielską i od 4 lat pomagam moimkursantom rozpracować angielską gramatykę i nabrać pewności siebie w mówieniu po angielsku! Aktualnie prowadzę swoją szkołę Just say a word;)
-            Od samego początku mojej przygody z nauczaniem  uczę tak jak sama kiedyś chciałabym być uczona. Pokażę Ci, że nauka może być przyjemna i nie musi kojarzyć się z czasami szkolnej ławki.
-
-            Zajęcia odbywają się online , przez Teams  . Zajęcia oparte są w dużej mierze na materiałach autentycznych , abyś mógł/mogła poznać naturalny język angielski i takim też się zacząć posługiwać.Po każdych zajęciach otrzymujesz ode mnie materiały z lekcji jak i ćwiczenia na pracę domową, aby móc uporządkować i utrwalić poznane zagadnienia.
-
-            Zajęcia skierowane są dla młodzieży i dorosłych  na poziomie średniozaawansowanym i zaawansowanym . Ze mną przygotujesz się do egzaminu 8klasisty , matury jak i egzaminów Cambridge takich jak FCE czy CAE . Pomogę Ci także rozwinąć umiejętności, które pozwolą Ci swobodnie  wypowiedziećsię na każdy temat, zapominając z lekcji na lekcję co to bariera językowa .Do każdego z kursantów podchodzę indywidualnie więc na początku zawsze określamy cele i potrzeby jakie pragniesz zrealizować.
+             zebranych informacji opracowuje propozycję planu nauki, który przygotowuję
+             w sposób spersonalizowany pod każdego ucznia w zależności od poziomu
+             języka na którym się znajduje oraz celu nauki języka. Oprócz harmonogramu
+             nauki realizowanego na lekcjach, swoim uczniom udzielam również
+             szczegółowych instrukcji odnośnie codziennej samodzielnej nauki w
+             domu, motywacji oraz organizacji w planowaniu czasu w osiąganiu celu,
+             które w sposób efektywny pomogą przyswoić dany materiał.
+             Jestem również osobą zorganizowaną, otwartą oraz komunikatywną,
+             nastawioną na słuchanie potrzeb i oczekiwań swoich uczniów, co wierzę,
+             że znacznie ułatwia współpracę.
           </p>
         </div>
       </div>

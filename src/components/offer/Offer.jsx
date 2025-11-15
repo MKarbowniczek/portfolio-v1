@@ -1,22 +1,40 @@
 import React from "react";
 import "./Offer.scss";
+import backgroundImage from "../../assets/background.png";
 
 const Offer = () => {
   return (
-    <section className="offer-section">
+    <section
+      className="offer-section"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="offer-content">
         <h2>Oferta</h2>
 
-        <div className="offer-block">
-          <h3>JEDNA OSOBA</h3>
-          <p>120 zł / 60 min</p>
-          <p>95 zł / 45 min</p>
-        </div>
+        <div className="offer-items">
+          <div className="offer-item">
+            <h3>Lekcje indywidualne</h3>
+            <p>95 zł / 45 min</p>
+            <p>120 zł / 60 min</p>
+            <h3>Lekcje grupowe</h3>
+            <p>70 zł / 60 min / os.</p>
+          </div>
 
-        <div className="offer-block">
-          <h3>DWIE OSOBY</h3>
-          <p>(znajomi, rodzeństwo itp. na podobnym poziomie)</p>
-          <p>70 zł / 60 min / os.</p>
+          <div className="offer-item">
+            <h3>Tłumaczenie zwykłe ENG–PL</h3>
+            <p>35 zł / 1 str. (1500 znaków ze spacjami)</p>
+            <h3>Korekta tłumaczenia</h3>
+            <p>15 zł / 1 str. (1500 znaków ze spacjami)</p>
+          </div>
+
+          <div className="offer-item">
+            <p>Możliwość wystawienia faktury VAT.</p>
+          </div>
         </div>
       </div>
     </section>
