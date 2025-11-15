@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    max-width: 800px;
+    max-width: 900px;
     width: 100%;
     margin: 0 auto;
   }
@@ -65,7 +65,7 @@
       font-weight: 200;
       font-size: 1.1rem;
       line-height: 1.8;
-      max-width: 600px;
+      max-width: 800px;
       margin: 0 auto;
 
       @media (min-width: 768px) {
@@ -102,4 +102,8 @@
       margin-top: 1.5rem;
     }
   }
+    .bold-name {
+        font-weight: 700;   /* super bold */
+        letter-spacing: 0.5px;
+    }
 }

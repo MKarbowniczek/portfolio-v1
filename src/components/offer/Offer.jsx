@@ -18,11 +18,11 @@ const Offer = () => {
 
         <div className="offer-items">
           <div className="offer-item">
-            <h3>Lekcje indywidualne</h3>
+            <h3>Zajęcia indywidualne</h3>
             <p>95 zł / 45 min</p>
             <p>120 zł / 60 min</p>
-            <h3>Lekcje grupowe</h3>
-            <p>70 zł / 60 min / os.</p>
+            <h3>Zajęcia grupowe</h3>
+            <p>80 zł / 60 min / os.</p>
           </div>
 
           <div className="offer-item">
