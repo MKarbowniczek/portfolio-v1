@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Opinions from "./components/opinions/Opinions";
 import Offer from "./components/offer/Offer";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -30,6 +31,13 @@ function App() {
       >
         <About />
       </section>
+
+            <section
+              id="opinions"
+              className="min-h-screen flex items-center justify-center pt-20"
+            >
+              <Opinions />
+            </section>
 
       <section
         id="offer"
